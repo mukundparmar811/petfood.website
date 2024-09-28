@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+.br{border: 3px solid red;}
+.bb{border: 3px solid blue;}
+.by{border: 3px solid gold;}
+.bg{border: 3px solid green;}
+.bk{border: 3px solid black;}
+
+.navbar-nav{
+    width: 70% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+.navbar{
+    height: 50px;
+    padding: 0 100px;
+    background-color: bisque !important;
+}
+.navbar img{
+    width: 100px;
+}
+.nav-link{
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/* ----------------------------------first section-------------------------------------- */
+
+.first-section{
+    min-height: auto;
+}
+
+.carousel-item img{
+    height: 750px;
+    width: 100%;
+    object-fit: cover;
+
+}
+/* -----------------------------second section------------------------------ */
+
+.second-section{
+    min-height: auto;
+}
+.second{
+    min-height: 700px;
+}
+.second-card-con{
+    min-height: auto;
+}
+.cards{
+    height: 450px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: ghostwhite;
+}
+.cards h4{
+    font-weight: bold;
+}
+
+/* --------------third section------------------------ */
+
+.third-section{
+    min-height: auto;
+    background-color: burlywood;
+}
+.third-left{
+    min-height: auto;
+    width: 50%;
+    padding-left: 100px;
+    
+}
+.third-left button{
+    padding: 10px 20px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+}
+.third-right{
+    width: 50%;
+    min-height: auto;
+}
+.icon{
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+    .navbar{
+        width: 100%;
+        padding: 0 20px;
+        position: fixed;
+        bottom: 0;
+    }
+    .text-div h1{
+        font-size: 30px !important;
+    }
+    .text-div{
+        height: 200px;
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        gap: 20px;
+    }
+    .third-left{
+        width: 100%;
+        padding-left: 0;
+    }
+    .third-right{
+        width: 100%;
+        
+        padding-top: 30px;
+    }
+    .third-right img{
+        width: 400px !important;
+    }
+
+}
+
+@media only screen and (max-width: 432px){
+    .second-section{
+        
+    }
+}
+    
+
+
